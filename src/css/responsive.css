@@ -19,8 +19,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .header-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .header-links li {
-        margin: 0 6px;
+        margin: 10px 6px 0;
+
     }
 
     /*

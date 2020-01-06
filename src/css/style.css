@@ -113,3 +113,12 @@
     color: lawngreen;
     padding: 10px;
 }
+.fa-dot-circle{
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.red-number{
+    padding: 0 10px;
+    color: red;
+    font-weight: 600;
+}
