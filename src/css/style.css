@@ -90,3 +90,26 @@
     flex-flow: column;
 }
 
+.logo-img{
+    width: 100px;
+}
+.fa-map-marker-alt{
+    font-size: 20px;
+    color: red;
+    padding: 10px;
+}
+.fa-phone{
+    font-size: 20px;
+    color: green;
+    padding: 10px;
+}
+.fa-check{
+    font-size: 20px;
+    color: lawngreen;
+    padding: 0 10px;
+}
+.fa-angle-double-right{
+    font-size: 20px;
+    color: lawngreen;
+    padding: 10px;
+}

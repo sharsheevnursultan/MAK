@@ -8,8 +8,10 @@
     <title>МАК - Центр обучения</title>
     <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/animate.css">
+    <script src="https://kit.fontawesome.com/db36368491.js" crossorigin="anonymous"></script>
     <script src="src/js/wow.min.js"></script>
     <script>
         new WOW().init();
@@ -20,10 +22,9 @@
     <div class="container">
         <div class="d-flex align-items-center justify-content-between">
             <div class="d-block align-items-center">
-                <a href="#">
-                    <img src="src/images/logo.jpg" alt="Blue logo">
+                <a href="#main">
+                    <img class="logo-img" src="src/images/logo.jpg" alt="Blue logo">
                 </a>
-                <h5 class="margin-top-25px">Центр обучения</h5>
             </div>
             <div>
                 <ul class="header-links">
@@ -36,18 +37,23 @@
                 </ul>
             </div>
             <div class="header-numbers">
-                <a href="tel:+996502900600">+996502900600</a>
-                <a href="tel:+996774900600">+996774900600</a>
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-phone"></i><a href="tel:+996502900600">+996502900600</a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-phone"></i><a href="tel:+996774900600">+996774900600</a>
+                </div>
+
             </div>
         </div>
     </div>
 </header>
 <main>
-    <section id="main" class="section-padding bg-white wow fadeIn">
+    <section id="main" class="section-padding bg-white ">
         <div class="container">
-            <h1 class="z-index-2 text-center padding-h1-lines">Центр обучения МАК</h1>
-            <div class="row">
-                <div class="col-md-6">
+            <h1 class="z-index-2 text-center padding-h1-lines wow slideInUp">Центр обучения МАК</h1>
+            <div class="row ">
+                <div class="col-md-6 wow slideInLeft">
                     <div class="">
                         <p class="z-index-2 text-justify">Учебный центр "Мак" — это лицензированный учебный центр,
                             который проводит курсы по ремонту сотовых телефонов и компьютеров и другой электроники. Наша
@@ -56,15 +62,16 @@
                             максимум практики. </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow slideInRight">
                     <div class="bg-img "></div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-padding bg-dark text-white wow fadeIn">
+    <section class="section-padding bg-dark text-white">
         <div class="container">
-            <h1 class="text-center">Как открыть бизнес по ремонту телефонов?</h1>
+            <h1 class="text-center wow fadeInUp padding-h1-lines wow slideInUp">Как открыть бизнес по ремонту
+                телефонов?</h1>
 
             <h3>
                 Актуальность бизнес идеи по ремонту сотовых телефонов очевидны:
@@ -109,35 +116,10 @@
 
         </div>
     </section>
-    <section class="section-padding bg-white wow fadeIn">
+    <section class="section-padding bg-white">
         <div class="container">
-            <h3>
-                Услуга по ремонту сотовых телефонов и компьютеров.
-            </h3>
 
-            <p>
-                Ремонт мобильных телефонов в Бишкеке популярная услуга т.к. рано или поздно с этим сталкивается
-                каждый
-                из нас. Учебный центр "Мак" предлагает своим клиентам услуги по устранению неисправностей всех
-                брендов
-                мобильных телефонов в Бишкеке. Основные из них:
-            </p>
-            <ul>
-                <li> ремонт телефонов iPhone</li>
-
-                <li> ремонт телефонов Samsung</li>
-
-                <li> ремонт телефонов HTC</li>
-
-                <li> ремонт телефонов LG</li>
-
-                <li> ремонт телефонов Nokia</li>
-
-                <li> ремонт телфоноев Sony</li>
-
-                <li> ремонт телефонов Lenovo</li>
-            </ul>
-            <h1>
+            <h1 class="text-center padding-h1-lines wow slideInUp">
                 Основные поломки мобильных телефонов:
             </h1>
 
@@ -158,12 +140,12 @@
                 <li> нерабочий тачксрин</li>
             </ul>
 
-            <p>
+            <p class="text-justify">
                 Произойти это может по банальным причинам, даже при смартфона без чехла или частого использования.
                 Ведь
                 со временем большинство деталей изнашивается и требует обновления.
             </p>
-            <p>
+            <p class="text-justify">
                 Также, следует отметить, мастер после проведения диагностики, сможет дать точное заключение и
                 предложить
                 варианты решения проблем. Причина поломки и способы ее устранения обсуждается с клиентом, уточняется
@@ -174,80 +156,13 @@
             </p>
         </div>
     </section>
-    <section class="section-padding bg-dark text-white wow fadeIn">
+    <section class="section-padding bg-dark text-white ">
         <div class="container">
-            <h3>
-                Как мы работаем:
-            </h3>
+            <h1 class="text-center padding-h1-lines wow slideInUp">
+                Курсы ремонта телефонов и планшетов
+            </h1>
 
-            <ol>
-                <li>
-                    Звонок
-                </li>
-                <li>
-                    Приходите к нам в офис
-                </li>
-                <li>
-                    Оплачиваете
-                </li>
-                <li>
-                    Заключается договор между вами и нашим учебным центром
-                </li>
-                <li>
-                    Начинаете учиться
-                </li>
-                <li>
-                    Обучаетесь
-                </li>
-                <li>
-                    Получение сертификата
-                </li>
-                <li>
-                    Начинаете работать
-                </li>
-            </ol>
-        </div>
-    </section>
-    <section class="section-padding bg-white wow fadeIn">
-        <div class="container">
-            <h3>
-                Что получите после окончания курса:
-            </h3>
-            <ul>
-                <li>
-
-                    ✅ Новую современную профессию в области электроники
-                </li>
-                <li>
-
-                    ✅ Станете специалистом по ремонту сотовых телефонов и компьютеров.
-                </li>
-                <li>
-
-                    ✅ Возможность трудоустройства
-                </li>
-                <li>
-
-                    ✅ Возможность открыть свой бизнес по ремонту сотовых телефонов
-                </li>
-                <li>
-
-                    ✅ Возможность зарабатывать
-                </li>
-                <li>
-
-                    ✅Также получаете бесплатную консультацию от мастера
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="section-padding bg-dark text-white wow fadeIn">
-        <div class="container">
-            <h3>
-                КУРСЫ РЕМОНТА ТЕЛЕФОНОВ и ПЛАНШЕТОВ
-            </h3>
-
-            <p>
+            <p class="text-justify">
                 Обучение ремонту телефонов и планшетов состоит из нескольких этапов обучения.
                 Каждый из курсов проходит в формате 10 % теория и 90 % практика. Вы не только слушаете
                 преподавателя, но
@@ -293,10 +208,10 @@
 
         </div>
     </section>
-    <section id="learning-program" class="section-padding bg-white wow fadeIn">
+    <section id="learning-program" class="section-padding bg-white ">
         <div class="container">
-            <h1>
-                Обучение ремонта персональных компьютеров, ноутбуков.
+            <h1 class="text-center padding-h1-lines wow slideInUp">
+                Курсы ремонта персональных компьютеров и ноутбуков.
             </h1>
 
             <h3>
@@ -316,91 +231,197 @@
                 </li>
             </ul>
 
-            <p>
+            <p class="text-justify">
                 Учебный центр "Мак" обучает ремонту компьютерной техники всех желающих. Индивидуальных подход к
                 каждому
                 ученику, программа разработана максимально доходчиво для каждого. От Вас требуется только желание и
                 стремится к результату. 
             </p>
-
-            <h3>
-                Обучение ремонта ноутбуков и персональных компьютеров
-            </h3>
-
             <p>
                 Курс длится - 2 месяца. Длительность - 2 часа.
             </p>
 
-            <p>
+            <p class="text-justify">
                 Акция!!! Для САМЫХ решительных полный курс обучения программного ремонта персональных компьютеров и
                 ноутбуков будет стоит по акции 8 тысяч сомов
                 вместо 10 тысяч сомов.
             </p>
         </div>
     </section>
-    <section class="section-padding bg-dark text-white wow fadeIn">
+    <section class="section-padding bg-dark text-white">
         <div class="container">
             <h3>
                 Преимущества:
             </h3>
-            <ul>
+            <ul class="list-unstyled">
                 <li>
-                    ✅ Мы работаем на основании лицензии
+                    <i class="fas fa-check"></i> Мы работаем на основании лицензии
                 </li>
                 <li>
-                    ✅ Удобное местоположение (Напротив нового торгового центра Цум)
+                    <i class="fas fa-check"></i> Удобное местоположение (Напротив нового торгового центра Цум)
                 </li>
                 <li>
-                    ✅Удобное время обучения
+                    <i class="fas fa-check"></i> Удобное время обучения
                 </li>
                 <li>
-                    ✅Опытные преподаватели
+                    <i class="fas fa-check"></i> Опытные преподаватели
                 </li>
                 <li>
-                    ✅ Уклон на практические занятия
+                    <i class="fas fa-check"></i> Уклон на практические занятия
                 </li>
                 <li>
-                    ✅ Выдаем сертификат на трех языках
+                    <i class="fas fa-check"></i> Выдаем сертификат на трех языках
                 </li>
                 <li>
-                    ✅ Оказываем бесплатную консультацию нашим ученикам после окончания курса
+                    <i class="fas fa-check"></i> Оказываем бесплатную консультацию нашим ученикам после окончания курса
                 </li>
             </ul>
         </div>
     </section>
-    <section id="what-need" class="section-padding bg-white wow fadeIn">
+    <section class="section-padding bg-white">
         <div class="container">
-            <h3>Что необходимо чтобы учиться?</h3>
+            <h3>
+                Как мы работаем?
+            </h3>
+
+            <ol>
+                <li>
+                    Звонок
+                </li>
+                <li>
+                    Приходите к нам в офис
+                </li>
+                <li>
+                    Оплачиваете
+                </li>
+                <li>
+                    Заключается договор между вами и нашим учебным центром
+                </li>
+                <li>
+                    Начинаете учиться
+                </li>
+                <li>
+                    Обучаетесь
+                </li>
+                <li>
+                    Получение сертификата
+                </li>
+                <li>
+                    Начинаете работать
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section class="section-padding bg-dark text-white">
+        <div class="container">
+            <h3>
+                Что получите после окончания курса:
+            </h3>
+            <ul class="list-unstyled">
+                <li>
+
+                    <i class="fas fa-check"></i> Новую современную профессию в области электроники
+                </li>
+                <li>
+
+                    <i class="fas fa-check"></i> Станете специалистом по ремонту сотовых телефонов и компьютеров.
+                </li>
+                <li>
+
+                    <i class="fas fa-check"></i> Возможность трудоустройства
+                </li>
+                <li>
+
+                    <i class="fas fa-check"></i> Возможность открыть свой бизнес по ремонту сотовых телефонов
+                </li>
+                <li>
+
+                    <i class="fas fa-check"></i> Возможность зарабатывать
+                </li>
+                <li>
+
+                    <i class="fas fa-check"></i> Также получаете бесплатную консультацию от мастера
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="what-need" class="section-padding bg-white ">
+        <div class="container">
+            <h3>Что необходимо чтобы начать учиться?</h3>
             <ol>
                 <li>Желание</li>
                 <li>Паспорт или свидетельство о рождении и все.</li>
             </ol>
         </div>
     </section>
-    <section id="contacts" class="section-padding bg-dark text-white wow fadeIn">
+    <section class="section-padding text-white bg-dark">
+        <div class="container">
+            <h3>
+                Услуга по ремонту сотовых телефонов и компьютеров.
+            </h3>
+
+            <p class="text-justify">
+                Ремонт мобильных телефонов в Бишкеке популярная услуга т.к. рано или поздно с этим сталкивается
+                каждый
+                из нас. Учебный центр "Мак" предлагает своим клиентам услуги по устранению неисправностей всех
+                брендов
+                мобильных телефонов в Бишкеке. Основные из них:
+            </p>
+            <ul class="list-unstyled">
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телефонов iPhone</li>
+
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телефонов Samsung</li>
+
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телефонов HTC</li>
+
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телефонов LG</li>
+
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телефонов Nokia</li>
+
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телфоноев Sony</li>
+
+                <li class="d-flex align-items-center"><i class="fas fa-angle-double-right"></i> ремонт телефонов Lenovo</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contacts" class="section-padding">
         <div class="container">
             <h1>
                 Контакты:
             </h1>
-            <ul>
-                <li>0502900600(WhatsApp)</li>
-                <li>0552900600</li>
-                <li>0774900600</li>
-            </ul>
+            <div class="d-flex align-items-center">
+                <i class="fas fa-phone"></i>
+                <p class="m-0">0502900600(WhatsApp)</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fas fa-phone"></i>
+                <p class="m-0">0552900600</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fas fa-phone"></i>
+                <p class="m-0">0774900600</p>
+            </div>
             <h1>
                 Адрес:
             </h1>
-            <ul>
-                <li>
+            <div class="d-flex align-items-center">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="m-0">
                     ул.Шопокова 121/1 (напротив нового Цума) вход со двора, 1 подъезд, 4 этаж
-                </li>
-            </ul>
+                </p>
+            </div>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1738.5087350217543!2d74.6142180563532!3d42.87682207109202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7c0bbcda827%3A0xc4abfe6d2e50c4f0!2zMTIxINGD0LsuINCo0L7Qv9C-0LrQvtCy0LAsINCR0LjRiNC60LXQuiA3MjAwMDE!5e0!3m2!1sru!2skg!4v1578323451108!5m2!1sru!2skg"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
     </section>
 </main>
-<footer class="">
+<footer class="section-padding text-white bg-dark">
     <div class="container">
-
+        <p class="text-center">
+            Кыргызстан. Бишкек. 2020
+        </p>
     </div>
 </footer>
 <script src="src/js/main.min.js"></script>
