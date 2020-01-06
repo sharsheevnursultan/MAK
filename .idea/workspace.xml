@@ -4,8 +4,21 @@
     <list default="true" id="7fec7964-4919-4582-bf2a-5d65db1e5304" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/airbnb-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/facebook-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/feature-icon-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/feature-icon-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/feature-icon-03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/feature-icon-04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/header-bg-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/header-bg-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hubspot-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/microsoft-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tabs-icon-01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tabs-icon-02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tabs-icon-03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tinder-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578229042117</updated>
-      <workItem from="1578229046765" duration="25864000" />
+      <workItem from="1578229046765" duration="26643000" />
     </task>
     <servers />
   </component>
