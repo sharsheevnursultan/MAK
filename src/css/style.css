@@ -58,12 +58,14 @@
 .header-links li {
     margin: 0 10px;
 }
-.header-links li a{
+
+.header-links li a {
     position: relative;
     color: #429440;
     transition: .3s;
 }
-.header-links li a:before{
+
+.header-links li a:before {
     position: absolute;
     content: "";
     width: 50%;
@@ -74,56 +76,77 @@
     opacity: 0;
 
 }
-.header-links li a:hover{
+
+.header-links li a:hover {
     color: #429440;
     text-decoration: none;
     opacity: 1;
 }
-.header-links li a:hover:before{
+
+.header-links li a:hover:before {
     width: 100%;
     color: #429440;
     text-decoration: none;
     opacity: 1;
 }
+
 .header-numbers {
     display: flex;
     flex-flow: column;
 }
 
-.logo-img{
+.logo-img {
     width: 100px;
 }
-.fa-map-marker-alt{
+
+.fa-map-marker-alt {
     font-size: 20px;
     color: red;
     padding: 10px;
 }
-.fa-phone{
+
+.fa-phone {
     font-size: 20px;
     color: green;
     padding: 10px;
 }
-.fa-check{
+
+.fa-check {
     font-size: 20px;
     color: lawngreen;
     padding: 0 10px;
 }
-.fa-angle-double-right{
+
+.fa-angle-double-right {
     font-size: 20px;
     color: lawngreen;
     padding: 10px;
 }
-.fa-dot-circle{
+
+.fa-dot-circle {
     font-size: 15px;
     padding: 5px 10px;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     font-size: 20px;
     color: #00E676;
     padding: 10px;
 }
-.red-number{
+
+.red-number {
     padding: 0 10px;
     color: red;
     font-weight: 600;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+    color: #fff;
+    background: #22b259;
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot:focus {
+    outline: none;
 }
