@@ -169,6 +169,14 @@
     height: 300px;
     margin: auto;
 }
+.my-input {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.my-input:focus {
+    outline: none;
+}
 .form-btn{
     background: red;
     border: none;
