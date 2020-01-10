@@ -169,3 +169,10 @@
     height: 300px;
     margin: auto;
 }
+.form-btn{
+    background: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+}
