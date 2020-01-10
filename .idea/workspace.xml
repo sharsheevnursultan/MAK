@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fec7964-4919-4582-bf2a-5d65db1e5304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/videos/in-process.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (2).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (3).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (4).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (5).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (6).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (7).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/videos/insta-videos- (8).mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/53392705_260592008185852_1587085027355058453_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/55299825_810060876059322_3128333691688845312_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/55535799_1231878060311161_5560920155015348224_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/58729611_594008757675955_7181731048200277037_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/68432864_1156227177894199_1139819851961117049_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/68536559_451640849022702_2957866805600964017_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/68559471_129641501621095_4597648481201553740_n.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videos/68677976_1331204697046125_8291375061749453492_n.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +86,7 @@
       <updated>1578229042117</updated>
       <workItem from="1578229046765" duration="30614000" />
       <workItem from="1578588491912" duration="19000" />
-      <workItem from="1578588540679" duration="7097000" />
+      <workItem from="1578588540679" duration="8303000" />
     </task>
     <servers />
   </component>
