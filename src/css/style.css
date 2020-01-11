@@ -6,12 +6,12 @@
 
 }
 
-body {
+.bg-white-custom {
     background-image: radial-gradient(circle 343px at 46.3% 47.5%, rgba(242, 242, 242, 1) 0%, rgba(241, 241, 241, 1) 72.9%);
 }
 
 #main {
-    background-color: #F2F2F2;
+    background: inherit;
 }
 
 .bg-dark-custom {
