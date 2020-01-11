@@ -114,13 +114,13 @@
 .fa-check {
     font-size: 20px;
     color: lawngreen;
-    padding: 0 10px;
+    padding: 3px 10px 0 10px;
 }
 
 .fa-angle-double-right {
     font-size: 20px;
     color: lawngreen;
-    padding: 10px;
+    padding: 3px 10px 0 10px;
 }
 
 .fa-dot-circle {
