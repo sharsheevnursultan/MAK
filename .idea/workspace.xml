@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fec7964-4919-4582-bf2a-5d65db1e5304" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone1.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone2.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone3.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone4.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone5.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone6.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone7.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone8.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/EPS/Halftone8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/Halftone Patterns.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-Halftone-Seamless-Patterns/Halftone Seamless Patterns/User Guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Bora Bora.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Halftone8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Moor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Opa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +102,7 @@
       <updated>1578229042117</updated>
       <workItem from="1578229046765" duration="30614000" />
       <workItem from="1578588491912" duration="19000" />
-      <workItem from="1578588540679" duration="19536000" />
+      <workItem from="1578588540679" duration="22544000" />
     </task>
     <servers />
   </component>
