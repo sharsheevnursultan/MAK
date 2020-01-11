@@ -7,19 +7,21 @@
 }
 
 body {
-    background: #2BC0E4; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: radial-gradient(circle 343px at 46.3% 47.5%, rgba(242, 242, 242, 1) 0%, rgba(241, 241, 241, 1) 72.9%);
 }
 
 #main {
     background-color: #F2F2F2;
 }
 
+.bg-dark-custom {
+    background: #7e98b2;
+}
+
 #first-page {
     background-size: cover;
     background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url(../../src/images/repair-img.jpg);
-    background-position: center ;
+    background-position: center;
     width: 100%;
     height: 500px;
 }
