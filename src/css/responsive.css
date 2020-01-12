@@ -38,10 +38,16 @@
     .header-links {
         display: none;
     }
+    #first-page {
+        height: auto;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     .header-links {
         display: none;
+    }
+    #first-page {
+        height: auto;
     }
 }
