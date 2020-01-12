@@ -10,10 +10,6 @@
     background-image: radial-gradient(circle 343px at 46.3% 47.5%, rgba(242, 242, 242, 1) 0%, rgba(241, 241, 241, 1) 72.9%);
 }
 
-#main {
-    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
-}
-
 .bg-dark-custom {
     background: #23438e;
 }
@@ -82,7 +78,7 @@
 
 .header-links li a {
     position: relative;
-    color: #429440;
+    color: #fff;
     transition: .3s;
 }
 
@@ -91,7 +87,7 @@
     content: "";
     width: 50%;
     height: 2px;
-    background: #23408C;
+    background: #fff;
     bottom: -5px;
     transition: .3s;
     opacity: 0;
@@ -99,7 +95,7 @@
 }
 
 .header-links li a:hover {
-    color: #429440;
+    color: #fff;
     text-decoration: none;
     opacity: 1;
 }
@@ -185,13 +181,14 @@
     border: 1px solid #bbdae0;
     border-radius: 5px;
     padding: 0 10px 0 0;
-    color: black;
+    color: #fff;
+    background: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
 }
 
 .phone-bg:hover {
     color: #fff;
     text-decoration: none;
-    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
+
 }
 
 #videos video {
