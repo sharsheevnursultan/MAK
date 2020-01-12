@@ -11,7 +11,7 @@
 }
 
 #main {
-    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url(../../src/images/Halftone1.jpg);
+    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
 }
 
 .bg-dark-custom {
@@ -189,7 +189,7 @@
 .phone-bg:hover {
     color: #fff;
     text-decoration: none;
-    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url("../images/Halftone1.jpg");
+    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
 }
 
 #videos video {
