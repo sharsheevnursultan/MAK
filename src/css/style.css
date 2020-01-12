@@ -13,7 +13,9 @@
 .bg-dark-custom {
     background: #23438e;
 }
-
+.padding-top-2em{
+    padding-top: 2em;
+}
 #first-page {
     background-attachment: fixed;
     background-size: cover;
