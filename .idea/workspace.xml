@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7fec7964-4919-4582-bf2a-5d65db1e5304" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="7fec7964-4919-4582-bf2a-5d65db1e5304" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> origin/master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,15 +51,15 @@
       <recent name="C:\Users\User\Desktop\blue" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -70,12 +75,28 @@
       <updated>1578229042117</updated>
       <workItem from="1578229046765" duration="30614000" />
       <workItem from="1578588491912" duration="19000" />
+<<<<<<< HEAD
       <workItem from="1578588540679" duration="25825000" />
+=======
+      <workItem from="1578588540679" duration="24295000" />
+      <workItem from="1578819808817" duration="2790000" />
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
