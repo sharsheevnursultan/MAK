@@ -13,9 +13,11 @@
 .bg-dark-custom {
     background: #23438e;
 }
-.padding-top-2em{
+
+.padding-top-2em {
     padding-top: 2em;
 }
+
 #first-page {
     background-attachment: fixed;
     background-size: cover;
@@ -153,6 +155,10 @@
     font-size: 20px;
     color: #00E676;
     padding: 10px;
+}
+
+.fa-check-circle {
+    font-size: 10em;
 }
 
 .red-number {
