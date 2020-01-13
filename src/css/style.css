@@ -145,7 +145,14 @@
     /*color: ;*/
     padding: 3px 10px 0 10px;
 }
-
+.fa-plus{
+    border-radius: 50px;
+    border: 6px solid;
+    color: limegreen;
+    font-size: 3em;
+    margin-right: 1rem;
+    padding: 4px 6px;
+}
 .fa-cog {
     font-size: 15px;
     padding: 5px 10px;
