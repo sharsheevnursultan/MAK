@@ -10,25 +10,38 @@
     background-image: radial-gradient(circle 343px at 46.3% 47.5%, rgba(242, 242, 242, 1) 0%, rgba(241, 241, 241, 1) 72.9%);
 }
 
-#main {
-    background: inherit;
+.bg-dark-custom {
+    background: #23438e;
 }
 
-.bg-dark-custom {
-    background: #7e98b2;
+.padding-top-2em {
+    padding-top: 2em;
 }
 
 #first-page {
-    background-attachment: 	fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url(../../src/images/repair-img.jpg);
     background-position: center;
     width: 100%;
     height: 500px;
 }
-
+#broken{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url(../../src/images/iphone5broken2.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
 .section-padding {
     padding: 1em 0;
+}
+.custom-hr{
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    margin: 2em 0;
 }
 
 .padding-h1-lines {
@@ -82,7 +95,7 @@
 
 .header-links li a {
     position: relative;
-    color: #429440;
+    color: #fff;
     transition: .3s;
 }
 
@@ -91,7 +104,7 @@
     content: "";
     width: 50%;
     height: 2px;
-    background: #23408C;
+    background: #fff;
     bottom: -5px;
     transition: .3s;
     opacity: 0;
@@ -99,7 +112,7 @@
 }
 
 .header-links li a:hover {
-    color: #429440;
+    color: #fff;
     text-decoration: none;
     opacity: 1;
 }
@@ -117,6 +130,8 @@
 }
 
 .logo-img {
+    padding: 10px;
+    border-radius: 50px;
     width: 100px;
 }
 
@@ -138,27 +153,54 @@
     padding: 3px 10px 0 10px;
 }
 
-.fa-angle-double-right {
+.fa-tools {
     font-size: 20px;
-    color: lawngreen;
+    color: orange;
     padding: 3px 10px 0 10px;
 }
-
+.fa-plus{
+    border-radius: 50px;
+    border: 6px solid;
+    color: limegreen;
+    font-size: 3em;
+    margin-right: 1rem;
+    padding: 4px 6px;
+}
 .fa-cog {
     font-size: 15px;
     padding: 5px 10px;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
 .fa-whatsapp {
     font-size: 20px;
     color: #00E676;
     padding: 10px;
 }
 
+.fa-check-circle {
+    color: limegreen;
+    font-size: 4em;
+    margin-right: 1rem;
+}
+
 .red-number {
-    padding: 0 10px;
-    color: red;
+    border-radius: 50px;
+    background: #22b259;
+    padding: 0 8px 0 8px;
+    color: #fff;
     font-weight: 600;
+    margin-right: 10px;
 }
 
 .fa-arrow-left,
@@ -174,15 +216,20 @@
 }
 
 .phone-bg {
+    transition: .3s;
     margin-bottom: 5px;
-    background: inherit;
+    background: white;
     border: 1px solid #bbdae0;
     border-radius: 5px;
     padding: 0 10px 0 0;
+    color: #fff;
+    background: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
 }
 
 .phone-bg:hover {
+    color: #fff;
     text-decoration: none;
+
 }
 
 #videos video {
