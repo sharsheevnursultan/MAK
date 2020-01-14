@@ -257,6 +257,7 @@
 }
 
 .topbutton {
+    transition:.3s;
     z-index: 10;
     border: 2px solid #ccc;
     background: #f7f7f7;
