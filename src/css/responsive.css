@@ -38,7 +38,7 @@
     .header-links {
         display: none;
     }
-    #first-page,#broken,#learning-program{
+    #first-page,#broken {
         height: auto;
     }
 }
@@ -47,7 +47,7 @@
     .header-links {
         display: none;
     }
-    #first-page,#broken,#learning-program {
+    #first-page,#broken {
         height: auto;
     }
 }
