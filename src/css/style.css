@@ -39,6 +39,16 @@
     min-width: 100%;
     min-height: 100%;
 }
+#learning-program {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4)), url(../../src/images/learning2.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 .section-padding {
     padding: 1em 0;
