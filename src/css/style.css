@@ -153,14 +153,17 @@
     color: red;
     padding: 10px;
 }
-
+.fa-instagram,
 .fa-phone,
-.fa-whatsapp
-{
+.fa-whatsapp {
     font-size: 20px;
     color: green;
     padding: 10px;
+    width: 40px;
 }
+/*.fa-instagram{*/
+/*    color: #e163ff;*/
+/*}*/
 
 .fa-check {
     font-size: 20px;
