@@ -76,7 +76,6 @@
     width: 70px;
     height: 4px;
     background: #d39e00;
-
     bottom: -30px;
     left: 50%;
     margin-left: -35px;
@@ -163,19 +162,12 @@
     padding: 3px 10px 0 10px;
 }
 
-.fa-question-circle {
-    color: limegreen;
-    font-size: 4em;
-    margin-left: 1rem;
-}
-
 .m-bottom-1em {
     margin-bottom: 1em;
 }
 
 .fa-tools {
     font-size: 20px;
-    /*color: orange;*/
     padding: 3px 10px 0 10px;
 }
 
@@ -206,24 +198,13 @@
     }
 }
 
-.fa-whatsapp {
-    font-size: 20px;
-    color: #00E676;
-    padding: 10px;
-}
-
-.fa-check-circle {
-    color: limegreen;
-    font-size: 4em;
-    margin-left: 1rem;
-}
-
-.fa-shield-alt,.fa-map-marked-alt {
-    color: limegreen;
-    font-size: 4em;
-    margin-left: 1rem;
-}
-.fa-users{
+.fa-whatsapp,
+.fa-question-circle,
+.fa-check-circle,
+.fa-shield-alt,
+.fa-book,
+.fa-map-marked-alt,
+.fa-users {
     color: limegreen;
     font-size: 4em;
     margin-left: 1rem;
@@ -231,11 +212,7 @@
 .m-top-1em{
     margin-top: 1em;
 }
-.fa-book {
-    color: limegreen;
-    font-size: 4em;
-    margin-left: 1rem;
-}
+
 
 .red-number {
     border-radius: 50px;
