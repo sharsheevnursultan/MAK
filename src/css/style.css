@@ -218,12 +218,19 @@
     margin-left: 1rem;
 }
 
-.fa-shield-alt {
+.fa-shield-alt,.fa-map-marked-alt {
     color: limegreen;
     font-size: 4em;
     margin-left: 1rem;
 }
-
+.fa-users{
+    color: limegreen;
+    font-size: 4em;
+    margin-left: 1rem;
+}
+.m-top-1em{
+    margin-top: 1em;
+}
 .fa-book {
     color: limegreen;
     font-size: 4em;
