@@ -47,11 +47,15 @@
     padding: 1em 0;
 }
 
-.custom-hr {
+.custom-hr,.custom-hr-dark {
     width: 100%;
-    height: 3px;
+    height: 2px;
     background: #fff;
     margin: 2em 0;
+    border-radius: 50px;
+}
+.custom-hr-dark{
+    background: grey;
 }
 
 .padding-h1-lines {
@@ -150,7 +154,9 @@
     padding: 10px;
 }
 
-.fa-phone {
+.fa-phone,
+.fa-whatsapp
+{
     font-size: 20px;
     color: green;
     padding: 10px;
@@ -198,7 +204,6 @@
     }
 }
 
-.fa-whatsapp,
 .fa-question-circle,
 .fa-check-circle,
 .fa-shield-alt,
