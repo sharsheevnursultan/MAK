@@ -162,14 +162,17 @@
     color: lawngreen;
     padding: 3px 10px 0 10px;
 }
-.fa-question-circle{
+
+.fa-question-circle {
     color: limegreen;
     font-size: 4em;
-    margin-right: 1rem;
+    margin-left: 1rem;
 }
-.m-bottom-1em{
+
+.m-bottom-1em {
     margin-bottom: 1em;
 }
+
 .fa-tools {
     font-size: 20px;
     /*color: orange;*/
@@ -181,7 +184,7 @@
     border: 6px solid;
     color: limegreen;
     font-size: 3em;
-    margin-right: 1rem;
+    margin-left: 1rem;
     padding: 4px 6px;
 }
 
@@ -212,13 +215,19 @@
 .fa-check-circle {
     color: limegreen;
     font-size: 4em;
-    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.fa-shield-alt {
+    color: limegreen;
+    font-size: 4em;
+    margin-left: 1rem;
 }
 
 .fa-book {
     color: limegreen;
     font-size: 4em;
-    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .red-number {
@@ -227,7 +236,7 @@
     padding: 0 8px 0 8px;
     color: #fff;
     font-weight: 600;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .fa-arrow-left,
