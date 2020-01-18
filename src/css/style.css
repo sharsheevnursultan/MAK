@@ -158,6 +158,9 @@
     border: 1px solid white;
     padding: 5px;
     margin: 5px 0;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 7px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.75);
 }
 
 .fa-instagram,
@@ -193,7 +196,10 @@
     color: lawngreen;
     padding: 3px 10px 0 10px;
 }
+.contacts-row a:hover{
+    text-decoration: none;
 
+}
 .m-bottom-1em {
     margin-bottom: 1em;
 }
