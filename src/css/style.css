@@ -154,7 +154,7 @@
     padding: 10px;
 }
 .contacts-bg{
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid white;
     padding: 5px;
     margin: 5px 0;
@@ -170,8 +170,8 @@
 .fa-whatsapp {
     font-size: 20px;
     color: white;
-    padding: 7px;
-    width: 40px;
+    padding: 7px 20px;
+    width: 60px;
 }
 .phone-header{
     color: green;
