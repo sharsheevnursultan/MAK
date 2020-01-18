@@ -153,19 +153,38 @@
     color: red;
     padding: 10px;
 }
+.contacts-bg{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 5px 0;
+}
 .fa-instagram,
 .fa-phone,
+.fa-facebook-square,
 .fa-envelope,
 .fa-whatsapp {
     font-size: 20px;
-    color: green;
+    color: white;
     padding: 7px;
     width: 40px;
 }
-/*.fa-instagram{*/
-/*    color: #e163ff;*/
-/*}*/
-
+.contacts-phone{
+    background: green;
+}
+.contacts-whatsapp{
+    background: #00E676;
+}
+.contacts-instagram{
+    background: #d6249f;
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+}
+.contacts-facebook{
+    background: #4267B2;
+}
+.contacts-mail{
+    background: #005FF9;
+}
 .fa-check {
     font-size: 20px;
     color: lawngreen;
