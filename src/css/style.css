@@ -159,6 +159,7 @@
     padding: 5px;
     margin: 5px 0;
 }
+
 .fa-instagram,
 .fa-phone,
 .fa-facebook-square,
@@ -169,6 +170,9 @@
     padding: 7px;
     width: 40px;
 }
+.phone-header{
+    color: green;
+}
 .contacts-phone{
     background: green;
 }
@@ -176,8 +180,7 @@
     background: #00E676;
 }
 .contacts-instagram{
-    background: #d6249f;
-    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: linear-gradient(341deg, #e1306c 0%,#c13584 59%,#833ab4 79%,#5851d8 90%,#405de6 100%);
 }
 .contacts-facebook{
     background: #4267B2;
