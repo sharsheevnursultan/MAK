@@ -47,14 +47,15 @@
     padding: 1em 0;
 }
 
-.custom-hr,.custom-hr-dark {
+.custom-hr, .custom-hr-dark {
     width: 100%;
     height: 2px;
     background: #fff;
     margin: 2em 0;
     border-radius: 50px;
 }
-.custom-hr-dark{
+
+.custom-hr-dark {
     background: grey;
 }
 
@@ -97,44 +98,31 @@
     height: 250px;
 }
 
-.header-links {
+.header-links-ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
-.header-links li {
-    margin: 0 10px;
+.header-li {
+    margin: 0 5px;
 }
 
-.header-links li a {
-    position: relative;
+.header-links {
+    transition: 2s;
     color: #fff;
-    transition: .3s;
-}
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
 
-.header-links li a:before {
-    position: absolute;
-    content: "";
-    width: 50%;
-    height: 2px;
-    background: #fff;
-    bottom: -5px;
-    transition: .3s;
-    opacity: 0;
 
 }
 
-.header-links li a:hover {
-    color: #fff;
+.header-links:hover {
+    color: #ffffff;
     text-decoration: none;
-    opacity: 1;
-}
+    background: linear-gradient(to top, rgba(29, 19, 19, 0.7), rgba(1, 0, 0, 0.4));
 
-.header-links li a:hover:before {
-    width: 100%;
-    color: #429440;
-    text-decoration: none;
-    opacity: 1;
 }
 
 .header-numbers {
@@ -153,7 +141,8 @@
     color: red;
     padding: 10px;
 }
-.contacts-bg{
+
+.contacts-bg {
     border-radius: 10px;
     padding: 5px;
     margin: 5px 0;
@@ -169,35 +158,44 @@
     padding: 7px 20px;
     width: 60px;
 }
-.phone-header{
+
+.phone-header {
     color: green;
     padding: 7px;
     width: 40px;
 }
-.contacts-phone{
+
+.contacts-phone {
     background: #001f5c;
 }
-.contacts-whatsapp{
+
+.contacts-whatsapp {
     background: #1EBEA5;
 }
-.contacts-instagram{
-    background: linear-gradient(341deg, #e1306c 0%,#c13584 59%,#833ab4 79%,#5851d8 90%,#405de6 100%);
+
+.contacts-instagram {
+    background: linear-gradient(341deg, #e1306c 0%, #c13584 59%, #833ab4 79%, #5851d8 90%, #405de6 100%);
 }
-.contacts-facebook{
+
+.contacts-facebook {
     background: #4267B2;
 }
-.contacts-mail{
+
+.contacts-mail {
     background: #005FF9;
 }
+
 .fa-check {
     font-size: 20px;
     color: lawngreen;
     padding: 3px 10px 0 10px;
 }
-.contacts-row a:hover{
+
+.contacts-row a:hover {
     text-decoration: none;
 
 }
+
 .m-bottom-1em {
     margin-bottom: 1em;
 }
@@ -244,7 +242,8 @@
     font-size: 4em;
     margin-left: 1rem;
 }
-.m-top-1em{
+
+.m-top-1em {
     margin-top: 1em;
 }
 
@@ -274,7 +273,6 @@
 .phone-bg {
     transition: .3s;
     margin-bottom: 5px;
-    background: white;
     border: 1px solid #bbdae0;
     border-radius: 5px;
     padding: 0 10px 0 0;
@@ -285,7 +283,7 @@
 .phone-bg:hover {
     color: #fff;
     text-decoration: none;
-
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.7), rgba(1, 0, 0, 0.4));
 }
 
 #videos video {
