@@ -143,8 +143,8 @@
 }
 
 .contacts-phone {
-    background: rgb(25,218,79);
-    background: linear-gradient(270deg, rgba(25,218,79,1) 0%, rgba(115,245,109,1) 100%);
+    background: #1DB954;
+
 }
 
 .contacts-whatsapp {
