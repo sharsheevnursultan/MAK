@@ -50,7 +50,7 @@ let btn = document.querySelector('.topbutton');
 //
 function magic() {
     if (window.pageYOffset > 200) {
-        btn.style.opacity = '1'
+        btn.style.opacity = '.8'
     } else {
         btn.style.opacity = '0'
     }
